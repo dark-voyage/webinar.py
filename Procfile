@@ -1,0 +1,1 @@
+web: pip install --upgrade pip && pip3 install pytelegrambotapi && pip3 install python-dotenv && python3 main.py

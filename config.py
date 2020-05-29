@@ -1,3 +1,32 @@
-token = "1171667596:AAGxv2xZqODr2zcXbv7BMLykk_KiJVP-AUo"
+import os
+import dotenv
 
-confession = -1001330565908
+dotenv.load_dotenv()
+TOKEN = os.environ.get('TOKEN')
+CONFESSION = os.environ.get('CONFESSION')
+
+PERSON = [
+    "Westman",
+    "Southman",
+    "Northman",
+    "Eastman"
+]
+
+DIALOG = [
+    "wanted to say that",
+    "told that",
+    "said that",
+    "disclosed",
+    "announced"
+]
+
+
+CONTENT = [
+    "wanted to share that",
+    "wanted to show that"
+]
+
+OFFENSIVE = [
+    "suka",
+    "blyat"
+]
